@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f1f5f9;
+}
+
+/* LOGIN */
+#loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* DASHBOARD */
+#dashboardPage {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #0f172a;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background: #1e293b;
+}
+
+.active {
+    background: #2563eb;
+}
+
+/* MAIN */
+.main {
+    flex: 1;
+}
+
+/* TOPBAR */
+.topbar {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blue { background: #3b82f6; }
+.green { background: #22c55e; }
+.orange { background: #f59e0b; }
+.red { background: #ef4444; }
+
+/* TABLE */
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}

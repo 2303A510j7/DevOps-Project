@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MedAI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>TEST PAGE</h1>
+
+<!-- LOGIN -->
+<div id="loginPage">
+    <form id="loginForm">
+        <h2>Login</h2>
+        <input id="username" placeholder="Username">
+        <input id="password" type="password" placeholder="Password">
+        <button type="submit">Login</button>
+        <p id="errorMsg"></p>
+    </form>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboardPage" style="display:none;">
+    <h2>Dashboard</h2>
+
+    <button onclick="logout()">Logout</button>
+
+    <div>
+        Users: <span id="usersCount"></span><br>
+        Models: <span id="modelsCount"></span><br>
+        Accuracy: <span id="accuracy"></span><br>
+        Alerts: <span id="alerts"></span>
+    </div>
+
+    <h3>Models</h3>
+    <table border="1">
+        <tbody id="modelsTable"></tbody>
+    </table>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
